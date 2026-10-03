@@ -1,1 +1,23 @@
-PLACEHOLDER_LOAD_FROM_FILE
+{
+  "version": 1,
+  "plugins": {
+    "quay": {
+      "sha": "13fdda54ac8a89b57cf5dc36b21c2ba03c43ff9a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quay",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dock-to-quay",
+            "description": "Dock a result to the Quay iPhone app when the user explicitly asks to send, save, or dock it there."
+          }
+        ]
+      }
+    }
+  }
+}
