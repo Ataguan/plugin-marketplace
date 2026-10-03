@@ -1,20 +1,20 @@
 {
   "version": 1,
   "plugins": {
-    "quay": {
-      "sha": "13fdda54ac8a89b57cf5dc36b21c2ba03c43ff9a",
+    "axiom": {
+      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
           {
-            "name": "quay",
-            "description": "stdio"
+            "name": "axiom",
+            "description": "http"
           }
         ],
         "skills": [
           {
-            "name": "dock-to-quay",
-            "description": "Dock a result to the Quay iPhone app when the user explicitly asks to send, save, or dock it there."
+            "name": "axiom-alerting",
+            "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           }
         ]
       }
